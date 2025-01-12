@@ -7,7 +7,7 @@ const projectsData = [
   {
     name: "AMR",
     description:
-      "Implementation of an Adaptive Mesh Refinement (AMR) algorithm and applied to a two-dimensional heat diffusion problem",
+      "Implementation of an Adaptive Mesh Refinement (AMR) algorithm applied to a two-dimensional heat diffusion problem",
     image_url: "https://i.imgur.com/GnFPBkn.png",
     image_alt: "Adaptive Mesh Refinement on a 2D heat diffusion problem",
     repository_url: "https://github.com/dij0s/AMR",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     name: "AdGA",
     description:
-      "Autopilot Driver Genetic Algorithm (AdGA) is a highly scalable distributed framework designed to optimize the trajectory of an autopilot in a car simulation game",
+      "Autopilot driving Genetic Algorithm (AdGA) is a scalable distributed framework that uses genetic algorithms to optimize autonomous vehicle paths in a driving simulation",
     image_url: "https://i.imgur.com/CMfTh0A.png",
     image_alt: "Car simulation game",
     repository_url: "https://github.com/dij0s/AdGA",

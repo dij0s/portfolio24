@@ -1,0 +1,30 @@
+div#reach-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 80px;
+}
+
+div#reach-wrapper > h1:first-of-type {
+    font-size: 48px;
+    padding-bottom: 30px;
+    line-height: normal;
+}
+
+div#reach-action {
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+div#reach-action:hover {
+    background-color: var(--accent-shadow-color);
+    border: 2px solid var(--accent-shadow-color);
+}
+
+div#reach-action > h2:first-of-type {
+    font-size: 18px;
+    padding: 12px 30px;
+}
