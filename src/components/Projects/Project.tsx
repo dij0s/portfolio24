@@ -1,25 +1,28 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
+
 import "./Projects.css";
 
 const projectsData = [
   {
-    name: "AdGA",
-    description: "Project description..",
-    image_url:
-      "https://onetreeplanted.org/cdn/shop/articles/nature_facts_1600x.jpg?v=1705008496",
-    image_alt: "Some alternative image description",
-    repository_url: "http://repo.xyz",
-    tech_stack: ["a", "b", "c"],
+    name: "AMR",
+    description:
+      "Implementation of an Adaptive Mesh Refinement (AMR) algorithm and applied to a two-dimensional heat diffusion problem",
+    image_url: "https://i.imgur.com/GnFPBkn.png",
+    image_alt: "Adaptive Mesh Refinement on a 2D heat diffusion problem",
+    repository_url: "https://github.com/dij0s/AMR",
+    tech_stack: ["Python"],
     is_academic: true,
   },
   {
     name: "AdGA",
-    description: "Project description..",
-    image_url:
-      "https://onetreeplanted.org/cdn/shop/articles/nature_facts_1600x.jpg?v=1705008496",
-    image_alt: "Some alternative image description",
-    repository_url: "http://repo.xyz",
-    tech_stack: ["a", "b", "c"],
-    is_academic: false,
+    description:
+      "Autopilot Driver Genetic Algorithm (AdGA) is a highly scalable distributed framework designed to optimize the trajectory of an autopilot in a car simulation game",
+    image_url: "https://i.imgur.com/CMfTh0A.png",
+    image_alt: "Car simulation game",
+    repository_url: "https://github.com/dij0s/AdGA",
+    tech_stack: ["Python", "MPI", "Kubernetes"],
+    is_academic: true,
   },
 ];
 
@@ -31,10 +34,27 @@ function Projects() {
         {projectsData.map((project, projectIndex) => (
           <div className="single-project-wrapper" key={projectIndex}>
             <div className="single-project-hero-wrapper">
-              <img src={project.image_url} alt={project.image_alt} />
+              <img
+                src={project.image_url}
+                alt={project.image_alt}
+                onClick={() => window.open(project.repository_url, "_blank")}
+              />
             </div>
-            <h4>{project.name}</h4>
-            <h5>{project.description}</h5>
+            <div className="single-project-address">
+              <h4 className="project-name">{project.name}</h4>
+              <FontAwesomeIcon
+                icon={faGithubAlt}
+                onClick={() => window.open(project.repository_url, "_blank")}
+              />
+            </div>
+            <h5 className="project-description">{project.description}</h5>
+            <div className="tech-stack-wrapper">
+              {project.tech_stack.map((tech, index) => (
+                <h5 key={index} className="tech-stack-label">
+                  {tech}
+                </h5>
+              ))}
+            </div>
           </div>
         ))}
       </div>

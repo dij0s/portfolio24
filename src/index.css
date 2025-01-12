@@ -1,28 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
 
 :root {
-  font-family: "Funnel Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  
-  background-color: #001a1f;
-  color: rgba(255, 255, 255, 0.87);
-  --accent-color: #00FFD4;
+    font-family: "Funnel Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #001a1f;
+    color: rgba(255, 255, 255, 0.87);
+    --accent-color: rgba(0, 255, 212, 1);
+    --accent-shadow-color: rgba(0, 61, 72, 1);
+    --text-shadow-color: rgba(255, 255, 255, 0.6);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  margin: 0px;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
+    margin: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .accent {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }

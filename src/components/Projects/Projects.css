@@ -21,10 +21,60 @@ div.single-project-wrapper {
 }
 
 div.single-project-hero-wrapper {
+    position: relative;
     height: 20vh;
 }
 
 img {
     height: 100%;
     width: -webkit-fill-available;
+    object-fit: cover;
+    box-shadow: 8px 8px var(--accent-shadow-color);
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 75%;
+}
+
+div.single-project-address {
+    padding-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.single-project-address > svg {
+    color: var(--accent-color);
+    height: 20px;
+    cursor: pointer;
+}
+
+h4.project-name {
+    font-size: 18px;
+}
+
+h5.project-description {
+    margin: 0;
+    padding-top: 4px;
+    font-size: 16px;
+    color: var(--text-shadow-color);
+    font-weight: normal;
+}
+
+div.tech-stack-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+h5.tech-stack-label {
+    margin: 0px 10px 0px 0px;
+    padding: 0px 4px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: var(--accent-shadow-color);
+    border-radius: 4px;
 }
