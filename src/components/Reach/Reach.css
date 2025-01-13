@@ -9,7 +9,7 @@ div#reach-wrapper {
 div#reach-doodle-line {
     width: 100%;
     height: 20px;
-    background-image: url("src/assets/doodles/separation-line.svg");
+    background-image: url("/assets/doodles/separation-line.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
