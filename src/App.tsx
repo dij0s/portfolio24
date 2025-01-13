@@ -9,6 +9,7 @@ import "./App.css";
 function App() {
   return (
     <>
+      <div id="app-hero-doodles" />
       <Information />
       <Projects />
       <Stack />

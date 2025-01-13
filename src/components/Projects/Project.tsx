@@ -8,7 +8,7 @@ const projectsData = [
     name: "AMR",
     description:
       "Implementation of an Adaptive Mesh Refinement (AMR) algorithm applied to a two-dimensional heat diffusion problem",
-    image_url: "https://i.imgur.com/GnFPBkn.png",
+    image_url: "src/assets/projects/amr.png",
     image_alt: "Adaptive Mesh Refinement on a 2D heat diffusion problem",
     repository_url: "https://github.com/dij0s/AMR",
     tech_stack: ["Python"],
@@ -18,7 +18,7 @@ const projectsData = [
     name: "AdGA",
     description:
       "Autopilot driving Genetic Algorithm (AdGA) is a scalable distributed framework that uses genetic algorithms to optimize autonomous vehicle paths in a driving simulation",
-    image_url: "https://i.imgur.com/CMfTh0A.png",
+    image_url: "src/assets/projects/adga.png",
     image_alt: "Car simulation game",
     repository_url: "https://github.com/dij0s/AdGA",
     tech_stack: ["Python", "MPI", "Kubernetes"],

@@ -27,3 +27,7 @@ body {
 .accent {
     color: var(--accent-color);
 }
+
+::selection {
+    background: var(--accent-shadow-color);
+}
