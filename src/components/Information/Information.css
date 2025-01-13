@@ -5,7 +5,8 @@
 }
 
 #information-catch {
-    width: 570px;
+    width: 100%;
+    max-width: 570px;
 }
 
 h2 {

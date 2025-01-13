@@ -42,3 +42,9 @@ div.stack-tech > h5 {
     font-weight: normal;
     color: var(--text-shadow-color);
 }
+
+@media (max-width: 730px) {
+    div.stack-tech {
+        width: 30%;
+    }
+}

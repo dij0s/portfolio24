@@ -14,6 +14,8 @@ div#projects-inner-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 div.single-project-wrapper {
@@ -77,4 +79,25 @@ h5.tech-stack-label {
     font-weight: normal;
     background-color: var(--accent-shadow-color);
     border-radius: 4px;
+}
+
+@media (max-width: 730px) {
+    div#projects-inner-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.single-project-wrapper {
+        width: 60%;
+    }
+
+    div.single-project-hero-wrapper {
+        height: 25vh;
+    }
+}
+
+@media (max-width: 576px) {
+    div.single-project-wrapper {
+        width: 80%;
+    }
 }
