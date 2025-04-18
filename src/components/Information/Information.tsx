@@ -20,7 +20,15 @@ function Information() {
         <h4>Based in Sion, Switzerland.</h4>
         <div id="information-icons-wrapper">
           <div id="information-icons-links">
-            <FontAwesomeIcon icon={faFileDownload} onClick={() => {}} />
+            <FontAwesomeIcon
+              icon={faFileDownload}
+              onClick={() =>
+                window.open(
+                  "https://github.com/dij0s/cv/releases/download/v1.0.0/OsmaniDion_CV_EN.pdf",
+                  "_blank",
+                )
+              }
+            />
             <FontAwesomeIcon
               icon={faLinkedinIn}
               onClick={() =>
