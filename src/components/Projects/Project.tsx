@@ -5,6 +5,17 @@ import "./Projects.css";
 
 const projectsData = [
   {
+    name: "PETAL",
+    description:
+      "Planification Énergétique Territoriale Assistée par LLM (PETAL) is a solution enabling data-driven, informed decisions for energy planning tasks, in Swiss municipalities.",
+    image_url: "/assets/projects/petal.png",
+    image_alt:
+      "PETAL web interface, displaying recommendations for photovoltaic installations in Switzerland",
+    repository_url: "https://github.com/dij0s/PETAL",
+    tech_stack: ["LangGraph", "Ollama", "Redis"],
+    is_academic: true,
+  },
+  {
     name: "AMR",
     description:
       "Implementation of an Adaptive Mesh Refinement (AMR) algorithm applied to a two-dimensional heat diffusion problem",
@@ -12,16 +23,6 @@ const projectsData = [
     image_alt: "Adaptive Mesh Refinement on a 2D heat diffusion problem",
     repository_url: "https://github.com/dij0s/AMR",
     tech_stack: ["Python"],
-    is_academic: true,
-  },
-  {
-    name: "AdGA",
-    description:
-      "Autopilot driving Genetic Algorithm (AdGA) is a scalable distributed framework that uses genetic algorithms to optimize autonomous vehicle paths in a driving simulation",
-    image_url: "/assets/projects/adga.png",
-    image_alt: "Car simulation game",
-    repository_url: "https://github.com/dij0s/AdGA",
-    tech_stack: ["Python", "MPI", "Kubernetes"],
     is_academic: true,
   },
 ];

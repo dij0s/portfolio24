@@ -24,7 +24,7 @@ function Information() {
               icon={faFileDownload}
               onClick={() =>
                 window.open(
-                  "https://github.com/dij0s/cv/releases/download/v1.0.0/OsmaniDion_CV_EN.pdf",
+                  "https://github.com/dij0s/cv/releases/download/v1.1.0/OsmaniDion_CV_EN.pdf",
                   "_blank",
                 )
               }

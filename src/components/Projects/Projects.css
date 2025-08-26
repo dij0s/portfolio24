@@ -29,7 +29,8 @@ div.single-project-hero-wrapper {
 
 img {
     height: 100%;
-    width: -webkit-fill-available;
+    width: 100%;
+    max-width: 100%;
     object-fit: cover;
     box-shadow: 8px 8px var(--accent-shadow-color);
     cursor: pointer;
